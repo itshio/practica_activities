@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         String cajaopinion = etopinion.getText().toString();
         String valoracion = spvaloracion.getSelectedItem().toString();
 
-        if(etnombre.equals("")|| etopinion.equals("")|| spvaloracion.equals("")){
+        if(nombre.equals("")|| cajaopinion.equals("")|| valoracion.equals("")){
 
             Toast.makeText(getApplicationContext(),"Debes rellenar algo",Toast.LENGTH_LONG).show();
 
